@@ -1,0 +1,207 @@
+.logout{
+    float:right;
+    margin:10px 0px;
+}
+
+.main-sidebar .sidebar-menu li.active a span, .main-sidebar .sidebar-menu li a.active {
+	color: #3271e5 !important;
+}
+
+.custom-nav li.active a {
+	color: #000 !important;
+}
+
+.upload_docs #hidden_upload_file {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 6;
+}
+.upload-btn-wrapper {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	float: right;
+	padding-bottom: 5px;
+  }
+  
+  .upload_btn {
+	border: 2px solid gray !important;
+	color: gray;
+	background-color: white;
+	padding: 8px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	}
+	
+	#folder_structure ul,#folder_structure #myUL {
+		list-style-type: none;
+	}
+	
+	#folder_structure #myUL {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#folder_structure .caret {
+		cursor: pointer;
+		-webkit-user-select: none; 
+		-moz-user-select: none; 
+		-ms-user-select: none; 
+		user-select: none;
+	}
+	
+	#folder_structure .caret::before {
+		content: "\25B6";
+		color: black;
+		display: inline-block;
+		margin-right: 6px;
+	}
+	
+	#folder_structure .caret-down::before {
+		-ms-transform: rotate(90deg); 
+		-webkit-transform: rotate(90deg); 
+		transform: rotate(90deg);  
+	}
+	
+	#folder_structure .nested {
+		display: none;
+	}
+	
+	#folder_structure .active {
+		display: block;
+	}
+
+	#folder_structure li.activeClass {
+		background-color: slategray;
+		padding: 5px;
+	}
+
+	.dash_board .card-header ul{
+		font-family: inherit;
+		font-size: 0.9rem;
+		line-height: 1.6;
+		list-style-position: outside;
+	}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.dash_board .dropdown-toggle::after{
+	margin-top: 7px !important;
+}
+
+.card-body .top-box-list > li:nth-child(2) {
+    padding-top: 0 !important;
+    width: 53%  !important;
+    float: left !important;
+    padding: 0  !important;
+}
+
+.list-inline.top-box-list {
+    margin: 0 0 0 39px  !important;
+}
+
+.folder_more_button{
+	width: 29.5%;
+	text-align: right;
+	left: 0;
+}
+
+
+
+/* .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected{
+  color: #fead01; 
+  border-bottom:2px solid #fead01;
+}
+.ant-btn.custom{
+  
+  line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.65);
+    background: #fff;
+    border-color: #d9d9d9;
+}
+.ant-btn.custom:hover{
+  color: #fead01;
+  background: #fff;
+  border-color: #fead01;
+}
+.ant-btn.custom:focus{
+  color: #fead01;
+  background: #fff;
+  border-color: #fead01;
+} */
